@@ -200,6 +200,7 @@ footer {
     margin: 0 auto;
 } 
 
+
 form{
     margin: 40px 0;
 }
@@ -291,4 +292,56 @@ td, th {
         width: auto;
     }
 
+}
+/*estilizar o contato*/
+
+.fale-conosco{
+    width: 940px;
+    margin: 0px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBE5B;
+}
+
+.whatsapp-icon {
+    margin-right: 10px;
+}
+instagram-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #E1306C;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instagram-button:hover {
+    background-color: #C13584;
+}
+
+.instagram-icon {
+    margin-right: 10px;
 }
